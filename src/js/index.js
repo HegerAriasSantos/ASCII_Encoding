@@ -1,5 +1,5 @@
 const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
-   "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v","w", "x", "y", "z", " ", ",", "!" ,"?",";",":","'","1","2","3","4","5","6","7","8","9","á","é","í","ó","ú", "ñ",".","n/"];
+   "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v","w", "x", "y", "z", " ", ",", "!" ,"?",";",":","'","1","2","3","4","5","6","7","8","9","á","é","í","ó","ú", "ñ",".",];
   //  arreglar el problema de que los saltos de line lo coje como underfined
   function encrypt(text) {
     let change = text.trim()
@@ -41,58 +41,29 @@ function Decrypt(number) {
 let Cod__text2 = document.getElementById("Cod__text")
 let Cod__number2 = document.getElementById("Cod__number")
 
-translateText = () =>{
+let translateText = () =>{
+  setTimeout(() => {
   console.log('text')
   console.log(encrypt(Cod__text2.value))
-   return Cod__number2.value = encrypt(Cod__text2.value)
+  return Cod__number2.value = encrypt(Cod__text2.value)
+  }, 800);
+  return Cod__number2.value = "Traduciendo..."
+  
 }
-translateNumber = () =>{
-  if (Cod__text2.value == "" && Cod__number2.value == "") {
-    console.log('text empyte')
-  } else {
-  console.log('number')
-  console.log( Decrypt(Cod__number2.value))
-  return Cod__text2.value = Decrypt(Cod__number2.value)
-  }
+let translateNumber = () =>{
+   setTimeout(() => {
+     if (Cod__text2.value == "" && Cod__number2.value == "") {
+       console.log('text empyte')
+     } else if (Cod__text2.value = " "  && Cod__number2.value == "") {
+       console.log('vacio')
+       return Cod__text2.value = ""
+     } else {
+     console.log('number')
+     console.log( Decrypt(Cod__number2.value))
+     return Cod__text2.value = Decrypt(Cod__number2.value)
+     }
+   }, 800);
+ 
+  return Cod__number2.value = "Traduciendo..."
+  
 }
-//  Translate = () =>{
-//    setTimeout(() => {
-     
-//      translateText()
-//    },400);
-//    setTimeout(() => {
-     
-//      translateNumber()
-//    }, 1000);
-// }
-
-
-
-
-
-// function printNumbers(from, to) {
-//   let current = from;
-
-//   let timerId = setInterval(function() {
-//     console.log(current);
-//     if (current == to) {
-//       clearInterval(timerId);
-//     }
-//     current++;
-//   }, 1000);
-// }
-// printNumbers(5, 10);
-
-// function printNumbers(from, to) {
-//   let current = from;
-
-//   setTimeout(function go() {
-//     console.log(current);
-//     if (current < to) {
-//       setTimeout(go, 1000);
-//     }
-//     current++;
-//   });
-// }
-// printNumbers(5, 10);
-

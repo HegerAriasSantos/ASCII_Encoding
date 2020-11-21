@@ -8,22 +8,30 @@
 </head>
 <body>
 <header>
-    <div class="header__text">
-        Estos son unos ejercicios/retos
-    </div>
+    <div class="header__text"></div>
 </header>
 <main>
-    <div class="main__description">
-        <h1>a continuacion la merma</h1>
-    </div>
+    <div class="main__description"></div>
 </main>
 
-<section>
-    <form action="">
-        <textarea  cols="30" rows="10" name="campo" autocomplete="off" size="7000"  id="Cod__text" value="" type="text" onclick="translateText()"></textarea>
-        <textarea  cols="30" rows="10" name="campo" size="40" autocomplete="off" " id="Cod__number" type="text/number" value="" onclick="translateNumber()"></textarea>
-    </form>
-    <button type="button" id="Btn__translate" onclick="Translate()">asdas</button>
+<section class="proyect">
+    <article class="encrypt">
+        <h2 class="encrypt__tittle">Codificacion y descodificacion de texto</h2>
+
+        <form class="encrypt__textareas">
+            <textarea class="encrypt__textarea" placeholder="Texto"  name="campo" autocomplete="off"  required=""  id="Cod__text" value="" type="text" ></textarea>
+            <textarea class="encrypt__textarea" placeholder="Numeros" name="campo"  autocomplete="off" " id="Cod__number" type="text" value="" ></textarea>
+        </form>
+        <form class="encrypt__buttons">
+            <input class="encrypt__button" type="button" value="To number" onclick="translateText()" name="">
+            <input class="encrypt__button" type="button" value="To text" onclick="translateNumber()"   name="" >
+        </form>
+    </article>
+        <div class="description">
+            <h3 class="description__tittle">Como fue creado (HTML, CSS, JS)</h3>
+            <p class="description__text">Se utiliza un array tipo alfabeto y se cambia el texto al numero del indice del caracter dentro del array y viceversa. Los numeros menores a 9 tendran un 0 antes del numero para que todos los numeros tengan 2 digitos. <br>
+            Tambien para el hecho de que se ponga el traduciendo se utiliza un setTimeout para que durante 800ms aparezca traduciendo para luego ejecutarse la traduccion.</p>
+        </div>
 
 </section>
 <section></section>
