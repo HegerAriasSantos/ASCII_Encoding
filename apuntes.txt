@@ -1,6 +1,7 @@
 cosas por hacer 
-1 Saber si una palabra u oracion es un palindromo
-2 Encontrar el factorial de un numero
-3 La sucesion de fibonacci
-4 Sobretodo cosas que te pongan a usar muchos if, else, y for
-5 Si te paso un texto muy grande, sabrias encontrar y ordenar cuales son las 10 palabras que mas se repiten?
+ -Hacer una funcion de descodificacion de el codigo de david.
+ -Saber si una palabra u oracion es un palindromo
+ -Encontrar el factorial de un numero
+ -La sucesion de fibonacci  
+ -Sobretodo cosas que te pongan a usar muchos if, else, y for
+ -Si te paso un texto muy grande, sabrias encontrar y ordenar cuales son las 10 palabras que mas se repiten?
