@@ -64,6 +64,6 @@ let translateNumber = () =>{
      }
    }, 800);
  
-  return Cod__number2.value = "Traduciendo..."
+  return Cod__text2.value = "Traduciendo..."
   
 }
