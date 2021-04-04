@@ -1,7 +1,0 @@
- -La sucesion de fibonacci  
- -Encontrar el factorial de un numero
- -Saber si una palabra u oracion es un palindromo
- -Si te paso un texto muy grande, sabrias encontrar y ordenar cuales son las 10 palabras que mas se repiten?
- - la pagina de fazt
- - la interfaz de la pagina que quiero hacer de los quehaceres
-    

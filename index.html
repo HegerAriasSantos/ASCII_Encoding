@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code ASCII</title>
+  <link rel="stylesheet" href="./src/styles/index.css">
+</head>
+
+<body>
+  <main class="proyect">
+    <article class="encrypt">
+      <h2 class="encrypt__tittle">Text encoding ASCII and decoding</h2>
+      <form class="encrypt__textareas">
+        <textarea class="encrypt__textarea" placeholder="Text" name="campo" autocomplete="off" required=""
+          id="Cod__text" value="" type="text"></textarea>
+        <textarea class="encrypt__textarea" placeholder="Number" name="campo" autocomplete="off" id="Cod__number"
+          type="text" value=""></textarea>
+      </form>
+      <form class="encrypt__buttons">
+        <input class="encrypt__button" type="button" value="To number" onclick="translateText()" name="">
+        <input class="encrypt__button" type="button" value="To text" onclick="translateNumber()" name="">
+      </form>
+    </article>
+    <div class="description">
+      <h3 class="description__tittle">It was created (HTML, CSS, JS)</h3>
+      <p class="description__text">An alphabet ASCII is used and the text is changed to the index ASCII of the
+        character within the array and to back. <br>
+        Also for the fact that the translating is set, a setTimeout is used so that for 800ms it appears translating and
+        then the translation is executed.</p>
+    </div>
+  </main>
+
+
+
+
+
+
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 {
-  "name": "practica",
+  "name": "encoding",
   "version": "1.0.0",
-  "description": "una serie de ejercicios para practicar mi javascritp",
+  "description": "A encoding Text to ASCII",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
