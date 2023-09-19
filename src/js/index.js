@@ -380,11 +380,9 @@ function Decrypt(number) {
   let textoFinal = "";
   let array = number.trim().split(" ");
   for (let i = 0; i < array.length; i++) {
-    if (array[i] == " ") {
-      continue;
-    } else {
+   
       textoFinal += alphabet[array[i]];
-    }
+    
   }
   return textoFinal;
 }
